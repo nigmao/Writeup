@@ -1,6 +1,5 @@
 # Writeup DF-IR
 
-- https://www.linkedin.com/pulse/aero-ctf-forensics-challenge-memory-dump-ighor-tavares/
 - https://gist.github.com/1259iknowthat/8cb818f0a37566b1fc25151ef074d9af
 
 ```bash
