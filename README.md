@@ -1,6 +1,7 @@
 # Writeup DF-IR
 
 - https://gist.github.com/1259iknowthat/8cb818f0a37566b1fc25151ef074d9af
+- https://github.com/MHaggis/sysmon-dfir
 
 ```bash
 vol -f Windows\ 10\ x64-ff6b1a74.vmem windows.pslist | grep conhost.exe
