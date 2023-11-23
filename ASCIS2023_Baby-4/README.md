@@ -36,7 +36,7 @@ open("payload.bin", "wb").write(get_bytes(0x460000, 0x7000, 1))
 
 ![run.png](./images/run.png)
 
-- Đúng follow chương trình thì nó sẽ in ra màn hình và thoát nhưng phân ta cần chương trình thực thi là ở dưới để có được flag.
+- Đúng follow chương trình thì nó sẽ in ra màn hình và thoát nhưng phần ta cần chương trình thực thi là ở dưới để có được flag.
 
 ```c
   Size = 16;
