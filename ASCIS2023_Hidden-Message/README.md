@@ -13,7 +13,7 @@ im = Image.open("lsb.png")
 px = im.load()
 print(px[0, 0])
 ```
-Then the result is `(127, 255, 255, 255)`. The white color is `(255, 255, 255, 255)`. If you notice, `255 = 0b1111111` and `127 = 0b01111111`. So isn't it Most-Significant-Bit 😂. Actually, the flag (in ASCII bits & bytes) is hidden in the image by the rule:
+Then the result is `(127, 255, 255, 255)`. The white color is `(255, 255, 255, 255)`. If you notice, `255 = 0b1111111` and `127 = 0b01111111`. So isn't it Most-Significant-Bit. Actually, the flag (in ASCII bits & bytes) is hidden in the image by the rule:
 + If `i` bit is `0`, the pixel `[i, 0]` is flipped from `0b11111111` to `0b01111111`. 
 + Else, remains.
 
