@@ -1,1 +1,1 @@
-# Writeup Threat Hunting, Digital Forensics and Incident-Response 
+# Writeup Threat-Hunting, Digital-Forensics and Incident-Response 
