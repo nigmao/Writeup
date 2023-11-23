@@ -82,7 +82,7 @@ int __cdecl sub_401000(SOCKET s)
 }
 ```
 
-- Sau đó có 1 vòng lặp do while lăng nghe request được gửi tới server, đây là các yêu cầu được gửi từ attacker -> victim và chương trình sẽ thực hiện các hành động cụ thể tùy thuộc vào các yêu cầu.
+- Sau đó có 1 vòng lặp `do{}while()` lăng nghe request được gửi tới server, đây là các yêu cầu được gửi từ attacker -> victim và chương trình sẽ thực hiện các hành động cụ thể tùy thuộc vào các yêu cầu.
 
 ```c
 do
