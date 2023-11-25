@@ -31,7 +31,7 @@ vol -f Windows\ 10\ x64-ff6b1a74.vmem windows.filescan | grep conhost.exe
 ```bash
 vol -f Windows\ 10\ x64-ff6b1a74.vmem windows.pslist | grep conhost.exe
 
-vol -f Windows\ 10\ x64-ff6b1a74.vmem windows.dumpfiles --pid 3022
+vol -f Windows\ 10\ x64-ff6b1a74.vmem windows.dumpfiles --pid 3032
 ```
 
 ![dumpfile.png](./images/dumpfile.png)
