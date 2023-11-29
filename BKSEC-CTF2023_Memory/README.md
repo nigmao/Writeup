@@ -168,3 +168,9 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\UnikeyNT.lnk
 BKSEC{can_you_use_Volatility?_f0007c0b}
 C:\Windows\System32\cmd.exe
 ```
+
+## NOTE:
+- Có 1 cách rất hay không cần giải mã hay viết script python đó là trực tiếp chạy file conhost.exe rồi ncat đến bằng chính máy windows victim.
+
+![ncat.png](./images/ncat.png)
+
