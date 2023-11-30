@@ -74,7 +74,7 @@ open("payload.bin", "wb").write(get_bytes(0x460000, 0x7000, 1))
 }
 ```
 
-- Ta dễ dàng nhận ra ở đây chương trình sử dụng mã háo AES mode ECB để giải mã chuỗi nhằm lấy flag.
+- Ta dễ dàng nhận ra ở đây chương trình sử dụng mã hóa AES mode ECB để giải mã chuỗi nhằm lấy flag.
 - Ban đầu mình chỉ sửa byte đoạn nhảy vào in ra "Opps" khi chạy chương trình từ jz thành jnz để follow chương trình đi tiếp xuống bên dưới và run lại chương trình (74 1C => 75 1C).
 
 ![patch.png](./images/patch.png)
